@@ -25,3 +25,18 @@ var vaihto = document.getElementById("vaihdaotsikkobtn");
 vaihto.onclick = function() {
     document.getElementById("otsikonvaihto").innerHTML = "Tässä on vaihdettu otsikko";
 }
+var etusivulle = document.getElementById("etusivullebtn");
+etusivulle.onclick = function() {
+    document.querySelector(".active").classList.remove("active")
+    document.querySelector("#divhome").classList.add("active")
+}
+var kotisivulle = document.getElementById("kotisivullebtn");
+kotisivulle.onclick = function() {
+    document.querySelector(".active").classList.remove("active")
+    document.querySelector("#divhome").classList.add("active")
+}
+var kotiin = document.getElementById("ekallesivullebtn");
+kotiin.onclick = function() {
+    document.querySelector(".active").classList.remove("active")
+    document.querySelector("#divhome").classList.add("active")
+}

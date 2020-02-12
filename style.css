@@ -4,6 +4,18 @@
 .active{
     display: block;
 }
+#tulostussivu{
+    background-color: tomato;
+}
+#kuvanpiiloitussivu{
+    background-color: yellow;
+}
+#otsikonvaihtosivu{
+    background-color: violet;
+}
+#divhome{
+    background-color: yellowgreen;
+}
 body{
-    background-color: teal;
+    background-color: rosybrown;
 }
