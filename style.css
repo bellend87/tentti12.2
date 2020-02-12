@@ -19,3 +19,10 @@
 body{
     background-color: rosybrown;
 }
+button{
+    margin: auto;
+    display: block;
+}
+h1, h2{
+    text-align: center;
+}
