@@ -1,0 +1,9 @@
+.page{
+    display: none;
+}
+.active{
+    display: block;
+}
+body{
+    background-color: teal;
+}
